@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* TradeVault Auth Styles - v2.1 */
 
 .auth-wrapper {
@@ -61,4 +62,69 @@
         padding: 1.5rem;
         box-shadow: none;
     }
+=======
+/* TradeVault Auth Styles - v2.1 */
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.auth-container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.auth-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.auth-form .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.auth-form .form-control {
+    padding: 0.75rem;
+    height: auto;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #6c757d;
+}
+
+.auth-footer a {
+    color: #3f51b5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .auth-container {
+        padding: 1.5rem;
+        box-shadow: none;
+    }
+>>>>>>> 189a777281163ce1a60fd0e2e61beba42a296835
 }
